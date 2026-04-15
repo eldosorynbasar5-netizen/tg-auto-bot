@@ -7,7 +7,7 @@ from telegram import Bot
 BOT_TOKEN = os.getenv("8787905510:AAFoqy0dU9YRbcEJAVxK5-YTJ4th3yEXbMU")
 CHAT_ID = os.getenv("-1003997119122")
 
-PHOTO_FOLDER = Path("photos")
+PHOTO_FOLDER = Path(".")
 STATE_FILE = Path("state.json")
 
 bot = Bot(token=BOT_TOKEN)
