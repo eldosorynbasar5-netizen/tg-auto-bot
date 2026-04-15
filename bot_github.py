@@ -1,14 +1,12 @@
 import os
-import json
-import random
-from pathlib import Path
 from telegram import Bot
 
-BOT_TOKEN = os.getenv("8787905510:AAEAoAnL5X_lEt4eNx-yOa4PHn7cCQJyxmI")
-CHAT_ID = os.getenv("-1003997119122")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
-PHOTO_FOLDER = Path(".")
-STATE_FILE = Path("state.json")
+print("BOT_TOKEN exists:", BOT_TOKEN is not None)
+print("CHAT_ID exists:", CHAT_ID is not None)
+print("BOT_TOKEN length:", len(BOT_TOKEN) if BOT_TOKEN else 0)
 
 bot = Bot(token=BOT_TOKEN)
 
