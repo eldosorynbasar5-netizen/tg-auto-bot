@@ -8,6 +8,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
 PHOTO_FOLDER = Path(".")
+STATE_FILE = Path("state.json")
 
 print("BOT_TOKEN exists:", BOT_TOKEN is not None)
 print("CHAT_ID exists:", CHAT_ID is not None)
