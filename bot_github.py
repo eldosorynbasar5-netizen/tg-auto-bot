@@ -4,7 +4,7 @@ import random
 from pathlib import Path
 from telegram import Bot
 
-BOT_TOKEN = os.getenv("8787905510:AAFoqy0dU9YRbcEJAVxK5-YTJ4th3yEXbMU")
+BOT_TOKEN = os.getenv("8787905510:AAFKxwIT3xpmwoiHPtaGUsiC2YToalSfmHE")
 CHAT_ID = os.getenv("-1003997119122")
 
 PHOTO_FOLDER = Path(".")
